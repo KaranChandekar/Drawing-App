@@ -3,6 +3,8 @@ const ctx = canvas.getContext("2d");
 
 let size = 20;
 let color = "black";
+let x;
+let y;
 
 function drawCircle() {
   ctx.beginPath();
