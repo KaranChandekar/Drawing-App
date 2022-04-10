@@ -15,5 +15,7 @@ function drawLine() {
   ctx.beginPath();
   ctx.moveTo(x1, y1);
   ctx.lineTo(x2, y2);
-  ctx.strokeStyle;
+  ctx.strokeStyle = color;
+  ctx.lineWidth = size;
+  ctx.stroke();
 }
